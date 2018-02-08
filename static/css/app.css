@@ -1,0 +1,110 @@
+body {
+	align-content: center;
+	font-family: "Tahoma", sans-serif;
+	padding-top: 5rem;
+}
+
+img{
+	position: relative
+	height: 225px;
+	width: 225px;
+	left: 10px; 
+}
+
+.cont{
+	position: relative;
+	border-radius: 5px;
+	width : 510px;
+	height: 520px;
+	margin:auto;
+	margin-top: 90px;
+	border:5px solid rgba(0, 56, 46, 0.7);
+	background: rgba(0, 255, 212, 0.3);
+}
+
+.displaypic{
+	position: relative;
+	float: left;
+	left: 25%;
+	border-radius: 50%;
+	top: 10px;
+	height: 240px;
+	width: 240px;
+	border:5px solid rgba(0, 56, 46, 0.7);
+	background: rgba(255, 255, 255);
+}
+
+
+.fullname{
+	position: relative;
+	float: left;
+	right: 100px;
+	top: 255px;
+}
+
+.username{
+	position: relative;
+	float: left;
+	right: 50px;
+	top: 242px;
+}
+
+.city{
+	position: relative;
+	float: left;
+	right: 165px;
+	top: 260px;
+}
+
+.date{
+	position: relative;
+	float: left;
+	right: 75px;
+	top: 248px;
+}
+
+.bio{
+	position: relative;
+	float: left;
+	left: 2px;
+	top: 105px;
+}
+
+.posts{
+	position: relative;
+	float: left;
+	top: 50px;
+	padding-right: 20px;
+}
+
+.following{
+	position: relative;
+	float: left;
+	top: 50px;
+	padding-left: 10px;
+}
+
+.followers{
+	position: relative;
+	float: left;
+	top: 50px;
+	padding-left: 20px;
+}
+
+.info{
+	position: relative;
+	left: 160px;
+	top: 40px;
+}
+
+.button{
+	position: relative;
+	float: left;
+	top: 115px;
+	right: 32%;
+}
+
+.inner{
+	position: relative;
+	top: 15px;
+}

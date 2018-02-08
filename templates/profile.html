@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block main %}
+       <div class="cont">
+           <div class="displaypic">
+               <img src="{{url_for('static', filename='person-male.png')}}"></img>
+           </div>
+           <div class="fullname">
+               <h2>Luciano Gordon</h2>
+           </div>
+           <div class="username">
+               <h5>@acvp3lla</h5>
+           </div>
+
+           <div class="city">
+               <h5>Kingston, Jamaica</h5>
+           </div>
+
+           <div class="date">
+             <label>{{formatted_date}}</label>
+           </div>
+           <div class="inner">
+           <div class="bio">
+             <p>I am a Computer Science student at the University of the West Indies, an avid sportsman and a lover of music, movies and good food.</p>
+           </div>
+           <div class="info">
+              <div class="posts">
+                <h4>200</h4>
+                <label>Posts</label>
+              </div>
+              <div class="following">
+                <h4 class="five00">500</h4>
+                <label>Following</label>
+              </div>
+              <div class="followers">
+                <h4>700</h4>
+                <label>Followers</label>
+              </div>
+              <div class="button">
+                <button>Follow</button>
+              </div>
+             </div>
+           </div>
+       </div> 
+{% endblock %}
